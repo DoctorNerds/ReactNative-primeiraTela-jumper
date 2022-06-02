@@ -11,14 +11,14 @@ export default function Botao({ texto, onPress, style }) {
 
 const estilos = StyleSheet.create({
   botao: {
-    backgroundColor: "#2A9F85",
+    backgroundColor: "#000000",
     paddingVertical: 16,
-    borderRadius: 6,
+    borderRadius: 6
   },
   textoBotao: {
     textAlign: "center",
-    color: "#ffffff",
-    fontSize: 16,
+    color: "#6E6E6E",
+    fontSize: 26,
     lineHeight: 26,
     fontWeight: "bold",
   },
